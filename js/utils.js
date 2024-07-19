@@ -6,9 +6,7 @@ const preloadImages = (selector = 'img') => {
 };
 
 
-// Helper function that lets you dynamically figure out a grid's rows/columns as well as further refine those with "odd" or "even" ones
-// https://greensock.com/forums/topic/34808-how-can-i-animate-the-odd-and-even-columns-rows-of-a-grid-with-gsapto/?do=findComment&comment=174346
-const getGrid = selector => {
+    const getGrid = selector => {
 	let elements = gsap.utils.toArray(selector),
 		bounds,
 		getSubset = (axis, dimension, alternating, merge) => {
