@@ -584,7 +584,7 @@ footer {
 
 #logo img {
 	display: flex;
-    width: 120%;
+    width: 100%;
 }
 
 #right {
@@ -598,10 +598,10 @@ footer {
 }
 #right img{
 	display: flex;
-	margin-left: 12vh;
+	margin-left: 10vh;
 	margin-top: 5vh;
 
-	width: 30%;
+	width: 25%;
 }
 
 #page2{
